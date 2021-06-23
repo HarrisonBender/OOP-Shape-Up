@@ -1,0 +1,58 @@
+
+body {
+    background-image: url(https://cdn.statically.io/img/wallpaperaccess.com/full/234990.jpg);
+    background-size: contain;
+}
+
+button {
+    font-size: 0.75em;
+    padding: 0.5em;
+    margin: 0.5em;
+    border: 2px solid black;
+    border-radius: 1em;
+}
+
+input[type=text] {
+    border: 2px solid rgb(3, 3, 3);
+    font-size: 0.9em;
+}
+
+#container {
+    position: relative;
+    background-color: lightgray;
+    height: 600px;
+    width: 600px;
+}
+
+#info{
+    background-image: linear-gradient(rgb(61, 19, 189), black);
+    color: white;
+    height: 600px;
+    width: 400px;
+    font-size: 1.25em;
+}
+.shape {
+    position: absolute;
+}
+
+#rectangle {
+    background-color: green;
+    opacity: 0.75;
+}
+
+#square {
+    background-color: red;
+    opacity: 0.75;
+}
+
+#circle {
+    background-color: purple;
+    opacity: 0.75;
+    border-radius: 50%;
+}
+
+#triangle {
+    opacity: 0.75;
+    width: 0;
+    height: 0;
+}
